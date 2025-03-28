@@ -1,5 +1,7 @@
 🖐 Hand Gesture Recognition using CNN
+
 📌 Overview
+
 This project focuses on Hand Gesture Recognition using a Convolutional Neural Network (CNN) trained on a 2GB dataset of various hand gesture images. The trained model is then used for real-time gesture recognition via an external camera. The project is implemented in Python using Google Colab for training due to computational constraints.
 
 🚀 Features
@@ -47,36 +49,3 @@ Once trained, the model is deployed to recognize gestures in real time using Ope
 
 📊 Results
 The model achieves high accuracy in classifying gestures, making it suitable for applications in sign language interpretation, gaming, and human-computer interaction.
-
-🚀 How to Run
-1️⃣ Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/hand-gesture-recognition.git
-cd hand-gesture-recognition
-2️⃣ Install dependencies:
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-3️⃣ Run the training script (Google Colab recommended for training):
-
-bash
-Copy
-Edit
-python train_model.py
-4️⃣ Test real-time gesture recognition:
-
-bash
-Copy
-Edit
-python real_time_recognition.py
-🏆 Future Improvements
-🔹 Optimize model for faster inference
-🔹 Add more gesture classes
-🔹 Improve real-time performance
-
-Author: Abdullah Shumail 
