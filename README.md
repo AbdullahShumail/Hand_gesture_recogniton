@@ -44,7 +44,42 @@ Results are visualized using matplotlib.
 
 A confusion matrix is used to analyze performance.
 
+
+
 🎥 Real-time Gesture Recognition
+
+🚀 How to Run
+1️⃣ Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/hand-gesture-recognition.git
+cd hand-gesture-recognition
+2️⃣ Install dependencies:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+3️⃣ Run the training script (Google Colab recommended for training):
+
+bash
+Copy
+Edit
+python train_model.py
+4️⃣ Test real-time gesture recognition:
+
+bash
+Copy
+Edit
+python real_time_recognition.py
+🏆 Future Improvements
+🔹 Optimize model for faster inference
+🔹 Add more gesture classes
+🔹 Improve real-time performance
+
+Author: Abdullah Shumail.
 Once trained, the model is deployed to recognize gestures in real time using OpenCV and an external camera.
 
 📊 Results
